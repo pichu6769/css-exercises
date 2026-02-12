@@ -1,10 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .card {
-  width: 400px;
+  width: 450px;
   background: #fff;
   margin: 16px auto;
 }
@@ -19,9 +24,21 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+}
+
+div {
+  padding: 16px;
+  margin: 16px 0;
+}
+
+h1 {
+  padding: 8px;
 }
